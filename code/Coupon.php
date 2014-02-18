@@ -120,7 +120,7 @@ class Coupon_Extension extends DataExtension {
 	 * 
 	 * @see DataObjectDecorator::extraStatics()
 	 */
-	public static $has_many = array(
+	private static $has_many = array(
 		'Coupons' => 'Coupon'
 	);
 }
@@ -136,7 +136,7 @@ class Coupon_Admin extends ShopAdmin {
 	);
 
 	private static $url_rule = 'ShopConfig/Coupon';
-	protected static $url_priority = 100;
+	private static $url_priority = 100;
 	private static $menu_title = 'Shop Coupons';
 
 	private static $url_handlers = array(
@@ -290,7 +290,7 @@ class Coupon_OrderExtension extends DataExtension {
 	 * 
 	 * @see DataObjectDecorator::extraStatics()
 	 */
-	public static $db = array(
+	private static $db = array(
 		'CouponCode' => 'Varchar'
 	);
 }

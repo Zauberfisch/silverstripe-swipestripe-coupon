@@ -1,0 +1,27 @@
+de:
+  Coupon_Admin:
+    MENUTITLE: 'Gutscheine'
+  CheckoutForm:
+    ApplyCoupon: 'Einlösen'
+    YOUR_ORDER: 'Ihre Bestellung'
+  CheckoutFormOrder:
+    NO_ITEMS_IN_CART: 'Keine Produkte im Einkaufswagen.'
+    PRICE: 'Preis ({currency})'
+    PRODUCT: Produkt
+    QUANTITY: Menge
+    SUB_TOTAL: 'Zwischensumme'
+    TOTAL: Summe
+    TOTAL_COLUMN: 'Summe ({currency})'
+  Coupon:
+    CODE: Code
+    COUPON: Gutschein
+    COUPON_CODE_LABEL: 'Gutschein Code'
+    DISCOUNT: 'Ermäßigung'
+    PLURALNAME: Gutscheine
+    SINGULARNAME: Gutscheine
+    TITLE: Name
+  CouponModification:
+    PLURALNAME: 'Gutschein Modifications'
+    SINGULARNAME: 'Gutschein Modification'
+  GridFieldDetailForm:
+    Save: Speichern
